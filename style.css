@@ -9,26 +9,26 @@ header {
     background-color: rgb(41, 95, 231);
 }
 
-.header-container {
-    margin: 0 10%;
+.upper-header {
+    margin: 0 50px;
     height: 60px;
     padding: 15px 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+    /* font-weight: 600; */
 }
 
 .logo {
     display: inline-block;
-    vertical-align: middle;
 }
 
 a {
     display: inline-block;
-    margin: 0 auto;
-    padding: 0 30px;
+    margin: 5px auto;
+    padding: 0 20px;
     text-decoration: none;
     color: white;
-    vertical-align: middle;
 }
 
 .login {
@@ -36,11 +36,8 @@ a {
     background-color: white;
     border-radius: 15px;
     padding: 5px;
-    vertical-align: middle;
 }
 
-.header-img {
-    margin: 0 auto;
-    background-color: aqua;
-    height: 500px;
+#jumbo {
+    width: 100%;
 }
