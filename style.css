@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -10,13 +11,13 @@ header {
 }
 
 .upper-header {
+    max-width: 80%;
     margin: 0 50px;
     height: 60px;
-    padding: 15px 50px;
+    padding: 0 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* font-weight: 600; */
 }
 
 .logo {
@@ -34,8 +35,8 @@ a {
 .login {
     display: inline-block;
     background-color: white;
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 50px;
+    padding: 12px;
 }
 
 .lower-header {
@@ -43,4 +44,53 @@ a {
     height: 700px;
     width: 100%;
     background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.didascalia {
+    text-align: center;
+    max-width: 80%;
+}
+
+#titolo-header {
+    font-size: 2.6rem;
+}
+
+#sottotitolo-header {
+    margin-top: 50px;
+    line-height: 1.8rem;
+    max-width: 600px;
+}
+
+.header-link {
+    display: inline-block;
+    margin: 2rem;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#white {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+#white::before {
+    content: '\2B63';
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 50px;
 }
