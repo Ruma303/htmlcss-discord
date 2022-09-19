@@ -94,3 +94,34 @@ a {
     padding: 15px;
     border-radius: 50px;
 }
+
+.main-flex {
+    max-width: 80%;
+    margin: 3rem auto; 
+    /* non sono sicuro che questi 2 sotto servano */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scheda {
+    display: flex;
+    flex: 0 -1;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.img-scheda{
+    vertical-align: middle;
+}
+
+.titolo-scheda {
+    font-size: 2rem;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.paragrafo-scheda {
+    max-width: 50%;
+    font-size: 0.8rem;
+}
