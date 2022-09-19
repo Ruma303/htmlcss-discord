@@ -9,7 +9,8 @@ header {
     background-color: rgb(41, 95, 231);
 }
 
-.header-link {
+.header-container {
+    margin: 0 10%;
     height: 60px;
     padding: 15px 50px;
     display: flex;
@@ -21,13 +22,10 @@ header {
     vertical-align: middle;
 }
 
-.link {
+a {
     display: inline-block;
     margin: 0 auto;
     padding: 0 30px;
-}
-
-a {
     text-decoration: none;
     color: white;
     vertical-align: middle;
