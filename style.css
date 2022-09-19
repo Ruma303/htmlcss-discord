@@ -38,6 +38,9 @@ a {
     padding: 5px;
 }
 
-#jumbo {
+.lower-header {
+    background-image: url("img/jumbo.png");
+    height: 700px;
     width: 100%;
+    background-size: cover;
 }
