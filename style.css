@@ -35,7 +35,6 @@ li {
 
 a {
     display: inline-block;
-    margin: 5px auto;
     padding: 1em;
     text-decoration: none;
     color: white;
@@ -63,7 +62,7 @@ a {
     background-color: white;
     color: black;
     border-radius: 10em;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
 #login {
@@ -74,7 +73,7 @@ a {
     margin-left: 20rem;
 }
 
-/* MODIFICHE DELLA CORREZIONE */
+/* MODIFICHE DELLA CORREZIONE 
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -83,7 +82,7 @@ a {
 .container-small {
     max-width: 600px;
     margin: 0 auto;
-}
+} */
 
 .lower-header {
     background-image: url("img/jumbo.png");
@@ -128,53 +127,52 @@ a {
     vertical-align: middle;
 }
 
-#white::before {
-    content: '\2B63';
-    font-size: 30px;
-    vertical-align: middle;
-}
-
 #black {
     background-color: black;
     color: white;
     font-weight: 400;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .main-flex {
-    max-width: 80%;
+    max-width: 70%;
     margin: 3rem auto; 
-    /* non sono sicuro che questi 2 sotto servano */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .scheda {
     display: flex;
-    justify-content: space-center;
     align-items: center;
+    width: 100%;
 }
 
 .img-scheda{
-    vertical-align: middle;
-    flex-basis: 30%;
-    flex-shrink: 1;
+    /* vertical-align: middle; */
+    max-width: 50%;
+    min-width: 30%;
 }
 
 .testo-scheda {
-    flex-basis: 30%;
-    flex-shrink: 3;
-    /* max-width: 50%; */
-    margin: 0 auto;
-
+    max-width: 30%;
 }
 
 .titolo-scheda {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    align-self: flex-start;
 }
 
 .paragrafo-scheda {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
+
+.scheda-invertita {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* .wave {
+    fill: 100%;
+    background-color: rgb(244, 244, 244);
+} */
