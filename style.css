@@ -210,13 +210,22 @@ a {
 }
 
 .last-section {
-    background-image: url('img/stars.svg');
-    background-repeat: no-repeat;background-size:contain;
+    /* margin: 0 auto; */
+    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    display: block;
+}
+
+.last-h2 {
+    background-image: url('img/stars.svg');
+    background-size:contain;
+    background-repeat:no-repeat;
 }
 
 .download {
-    display: block;
+    background-color: rgb(114, 137, 216);
+    color: white;
+    margin-top: 3rem;
 }
