@@ -7,60 +7,90 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+
 header {
     margin: 0 auto;
-    background-color: rgb(41, 95, 231);
+    background-color: rgb(37, 94, 233);
 }
 
 li {
     list-style-type: none;
 }
 
-.upper-header {
-    max-width: 80%;
-    margin: 0 auto;
-    height: 60px;
-    padding: 0 50px;
+.upper-header ul {
     display: flex;
-    /* flex-direction: row; */
-    justify-content: space-around;
+    gap: 1em;
     align-items: center;
 }
 
-.logo {
-    display: inline-block;
-}
-
-/* MODIFICHE DELLA CORREZIONE */
-/* .container {
-    max-width: 1000px;
+.upper-header {
+    max-width: 80%;
     margin: 0 auto;
+    height: 4em;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-}
- */
 
 a {
     display: inline-block;
     margin: 5px auto;
-    padding: 0 20px;
+    padding: 1em;
     text-decoration: none;
     color: white;
 }
 
-.login {
-    display: inline-block;
+/* vertical-align: middle; */
+.upper-header .logo {
+    margin-right: 20rem;
+    padding-left: 0;
+}
+
+.menu-link{
+    display: flex;
+    padding: 0 1em;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-link:hover {
+    background-color: aqua;
+    height: 80px;
+}
+
+.buttons {
     background-color: white;
-    border-radius: 50px;
-    padding: 12px;
+    color: black;
+    border-radius: 10em;
+    padding: 10px 15px;
+}
+
+#login {
+    font-weight: 500;
+}
+
+.upper-header .accedi {
+    margin-left: 20rem;
+}
+
+/* MODIFICHE DELLA CORREZIONE */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .lower-header {
     background-image: url("img/jumbo.png");
     background-size: cover;
+    background-position-x: center;
+    background-position-x: bottom;
+    background-repeat: no-repeat;
     height: 700px;
     color: white;
     display: flex;
@@ -95,8 +125,6 @@ a {
     background-color: white;
     color: black;
     font-weight: 500;
-    padding: 5px 20px;
-    border-radius: 50px;
     vertical-align: middle;
 }
 
@@ -110,8 +138,7 @@ a {
     background-color: black;
     color: white;
     font-weight: 400;
-    padding: 15px;
-    border-radius: 50px;
+    padding: 20px;
 }
 
 .main-flex {
