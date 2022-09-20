@@ -208,3 +208,15 @@ a {
     font-size: 1rem;
     margin: 0 auto;
 }
+
+.last-section {
+    background-image: url('img/stars.svg');
+    background-repeat: no-repeat;background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download {
+    display: block;
+}
