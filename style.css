@@ -145,7 +145,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .img-scheda{
@@ -167,19 +166,44 @@ a {
     font-size: 1rem;
 }
 
+.wave {
+    display: block;
+}
+
+.background {
+    background-color: rgb(244, 244, 244);
+    width: 100vw;
+}
+
 .scheda-invertita {
     max-width: 70%;
     margin: 0 auto; 
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row-reverse;
-    background-color: rgb(244, 244, 244);
-}
-
-.wave {
-    display: block;
 }
 
 /* rotazione img wave */
 .wave-reverse {
     transform: rotate(-180deg);
+}
+
+.quarta-scheda {
+    max-width: 70%;
+    margin: 3rem auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testo-quarta-scheda {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.paragrafo-quarta-scheda {
+    max-width: 80%;
+    font-size: 1rem;
+    margin: 0 auto;
 }
