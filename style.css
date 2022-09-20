@@ -210,22 +210,76 @@ a {
 }
 
 .last-section {
-    /* margin: 0 auto; */
     text-align: center;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     display: block;
 }
 
 .last-h2 {
     background-image: url('img/stars.svg');
-    background-size:contain;
+    background-position: center;
     background-repeat:no-repeat;
+    /* height: 180px; */
 }
 
 .download {
     background-color: rgb(114, 137, 216);
     color: white;
     margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+/* FOOTER  */
+
+.footer-background {
+    height: 400px;
+    background-color: rgb(34, 38, 41);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-link-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-link {
+    margin: 50px 3rem;
+    color: rgb(115, 136, 210);
+    font-weight: 600;
+}
+
+/* .social {
+    width: 20%;
+} */
+
+.footer-title {
+    color: rgb(115, 136, 210);
+    font-size: 20px;
+    display: block;
+    /* display: flex;
+    flex-shrink: -1; */
+}
+
+#ita {
+    margin: 1rem 0;
+    width: 30px;
+    vertical-align: middle;
+}
+
+#languages {
+    color: white;
+    vertical-align: middle;
+}
+
+/* CERCA ED INSERISCI FRECCIA DA FONT AWESOME */
+
+/* CERCA ED INSERISCI ICONE SOCIAL */
+
+footer a {
+    font-weight: 400;
 }
