@@ -135,21 +135,21 @@ a {
 }
 
 .main-flex {
+    display: flex;
+    flex-direction: column;
+} 
+
+.scheda {
     max-width: 70%;
     margin: 3rem auto; 
     display: flex;
-    flex-direction: column;
-}
-
-.scheda {
-    display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
 
 .img-scheda{
-    /* vertical-align: middle; */
-    max-width: 50%;
+    max-width: 50%; 
     min-width: 30%;
 }
 
@@ -168,11 +168,18 @@ a {
 }
 
 .scheda-invertita {
+    max-width: 70%;
+    margin: 0 auto; 
     display: flex;
     flex-direction: row-reverse;
+    background-color: rgb(244, 244, 244);
 }
 
-/* .wave {
-    fill: 100%;
-    background-color: rgb(244, 244, 244);
-} */
+.wave {
+    display: block;
+}
+
+/* rotazione img wave */
+.wave-reverse {
+    transform: rotate(-180deg);
+}
