@@ -2,20 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
 header {
     margin: 0 auto;
     background-color: rgb(41, 95, 231);
 }
 
+li {
+    list-style-type: none;
+}
+
 .upper-header {
     max-width: 80%;
-    margin: 0 50px;
+    margin: 0 auto;
     height: 60px;
     padding: 0 50px;
     display: flex;
+    /* flex-direction: row; */
     justify-content: space-around;
     align-items: center;
 }
@@ -23,6 +30,18 @@ header {
 .logo {
     display: inline-block;
 }
+
+/* MODIFICHE DELLA CORREZIONE */
+/* .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+ */
 
 a {
     display: inline-block;
@@ -41,11 +60,11 @@ a {
 
 .lower-header {
     background-image: url("img/jumbo.png");
-    height: 700px;
-    width: 100%;
     background-size: cover;
+    height: 700px;
     color: white;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -101,27 +120,34 @@ a {
     /* non sono sicuro che questi 2 sotto servano */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .scheda {
     display: flex;
-    flex: 0 -1;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-center;
+    align-items: center;
 }
 
 .img-scheda{
     vertical-align: middle;
+    flex-basis: 30%;
+    flex-shrink: 1;
+}
+
+.testo-scheda {
+    flex-basis: 30%;
+    flex-shrink: 3;
+    /* max-width: 50%; */
+    margin: 0 auto;
+
 }
 
 .titolo-scheda {
     font-size: 2rem;
-    max-width: 50%;
     margin-bottom: 20px;
 }
 
 .paragrafo-scheda {
-    max-width: 50%;
     font-size: 0.8rem;
 }
