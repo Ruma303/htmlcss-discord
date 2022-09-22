@@ -122,6 +122,9 @@ a {
     font-weight: 400;
 }
 
+
+/* MAIN */
+
 .main-flex {
     display: flex;
     flex-direction: column;
@@ -162,7 +165,6 @@ a {
 
 .background {
     background-color: rgb(244, 244, 244);
-    width: 100vw;
 }
 
 .scheda-invertita {
